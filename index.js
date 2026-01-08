@@ -41,6 +41,6 @@ else if (war<2){
 else if (war>2){
     alert("Entry denied due to missing requirement")
 }
-  else if (war === "0"){
+  else if (war === 0){
     alert("Entry allowed with Good Status")
 }
