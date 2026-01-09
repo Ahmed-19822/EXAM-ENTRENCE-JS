@@ -31,7 +31,7 @@ else if (fee){
 }
 let late = prompt("If You Are Late Tell Us Late Minutes")
 
-if (late<2){
+if (late<5){
     //allow
 }
 else if (late>2){
@@ -41,7 +41,7 @@ else if (late){
     alert("Invailed input")
 }
 
-let war = prompt("Tell Us How Many Warning Have You Recived")
+let war = prompt("Tell Us How Many Warning Have You Recived ")
 if (war<1){
     alert("Entry allowed with Good Status")
 }
@@ -57,6 +57,6 @@ else if (war>2){
     alert("Entry allowed with Good Status")
 }
 else if (war){
-    alert("Invailed input ")
+    alert("Entry Denied Due To Missing requirement")
 }
 
